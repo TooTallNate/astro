@@ -1,5 +1,11 @@
 # astro
 
+## 7.4.3
+
+### Patch Changes
+
+- [#18476](https://github.com/withastro/astro/pull/18476) [`8ea79a2`](https://github.com/withastro/astro/commit/8ea79a282e53b83c65f69c9013f5eeb5d97aadb1) Thanks [@astro-factory](https://github.com/apps/astro-factory)! - Fixes a `DataCloneError` crash when building pages that render SVG imports with `<Image />` or `getImage()` while `experimental.parallelPrerender` is enabled.
+
 ## 7.4.2
 
 ### Patch Changes
